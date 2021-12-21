@@ -7,7 +7,7 @@ const mongoose=require('mongoose');
 
 const todoList=new mongoose.Schema({
     title:String,
-    isCompleted:String,
+    isCompleted:Boolean,
 })
 
 
